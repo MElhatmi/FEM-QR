@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Outfit";
+  font-weight: 700; /* ExtraBold */
+  src: url("./font/static/Outfit-Bold.woff2") format("woff2"),
+    url("./font/static/Outfit-Bold.woff") format("woff"),
+    url("./font/static/Outfit-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-weight: 400; /* SemiBold */
+  src: url("./font/static/Outfit-Regular.woff2") format("woff2"),
+    url("./font/static/Outfit-Regular.woff") format("woff"),
+    url("./font/static/Outfit-Regular.ttf") format("truetype");
+}
+
 :root {
   /* colors */
   --bg-color: hsl(212, 45%, 89%);
