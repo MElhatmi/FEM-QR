@@ -36,7 +36,8 @@
 *::after {
   box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
 }
-body {
+body,
+h1 {
   margin: 0; /* Reset margin for common elements */
   padding: 0; /* Reset padding for common elements */
 }
