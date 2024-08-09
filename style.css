@@ -46,7 +46,7 @@ body {
 }
 .container {
   width: var(--width-100);
-  height: calc(100vh - 2.5rem);
+  height: 100vh;
   background-color: var(--bg-color);
   display: flex;
   justify-content: center;
@@ -106,8 +106,5 @@ body {
     font-size: var(--font-size-paragraph-small);
     margin-top: 4vw;
     margin-bottom: 10vw;
-  }
-  .attribution {
-    font-size: 4.4vw;
   }
 }
