@@ -50,6 +50,7 @@ body {
   width: var(--width-100);
   height: var(--height-100);
   background-color: var(--bg-color);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,6 +62,7 @@ body {
   background-color: #fff;
   border-radius: var(--border-radius);
   height: var(--height-31r);
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0477);
 }
 .qr-image-container,
 .qr-description {
