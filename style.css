@@ -4,6 +4,7 @@
   src: url("./font/static/Outfit-Bold.woff2") format("woff2"),
     url("./font/static/Outfit-Bold.woff") format("woff"),
     url("./font/static/Outfit-Bold.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
   src: url("./font/static/Outfit-Regular.woff2") format("woff2"),
     url("./font/static/Outfit-Regular.woff") format("woff"),
     url("./font/static/Outfit-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 :root {
