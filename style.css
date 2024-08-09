@@ -31,14 +31,15 @@
   --margin-small: 1rem;
   --margin-large: 1.5rem;
 }
-
 *,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*::before,
+*::after {
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
 }
-
+body {
+  margin: 0; /* Reset margin for common elements */
+  padding: 0; /* Reset padding for common elements */
+}
 body {
   text-align: center;
   font-family: "Outfit", sans-serif;
@@ -59,9 +60,10 @@ body {
 .qr-container {
   width: var(--width-90);
   max-width: var(--max-width-20r);
+  height: var(--height-31r);
   background-color: #fff;
   border-radius: var(--border-radius);
-  height: var(--height-31r);
+
   box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0477);
 }
 .qr-image-container,
@@ -71,14 +73,15 @@ body {
 }
 .qr-image-container {
   margin-top: var(--margin-small);
+  margin-bottom: var(--margin-large);
   border-radius: var(--border-radius-secondary);
 }
-.qr-description {
-  margin-top: var(--margin-large);
-}
+
 .qr-title {
+  margin-top: -2px;
   font-size: var(--font-size-title);
   line-height: 120%;
+  letter-spacing: 0;
   color: var(--primary-color);
   font-weight: var(--font-700);
 }
@@ -90,7 +93,8 @@ body {
   color: var(--secondary-color);
   font-weight: var(--font-400);
   width: var(--width-90);
-  margin: var(--margin-small) auto;
+  margin: auto;
+  margin-top: var(--margin-small);
 }
 
 @media (max-width: 22.25rem) {
