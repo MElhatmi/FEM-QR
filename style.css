@@ -62,12 +62,18 @@ body {
   }
   .qr-image-container {
     border-radius: 3vw;
+    margin-top: 4vw;
+  }
+  .qr-description {
+    margin-top: 6vw;
   }
   .qr-title {
     font-size: 6.2vw;
   }
   .qr-paragraph {
     font-size: 4.22952727272vw;
+    margin-top: 4vw;
+    margin-bottom: 10vw;
   }
   .attribution {
     font-size: 4.50909090909vw;
