@@ -25,6 +25,7 @@
   --width-90: 90%;
   --max-width-20r: 20rem;
   --height-100: 100vh;
+  --height-31r: 31.25rem;
 
   /* repetitive margins */
   --margin-small: 1rem;
@@ -59,6 +60,7 @@ body {
   max-width: var(--max-width-20r);
   background-color: #fff;
   border-radius: var(--border-radius);
+  height: var(--height-31r);
 }
 .qr-image-container,
 .qr-description {
@@ -80,18 +82,19 @@ body {
 }
 
 .qr-paragraph {
-  margin-top: var(--margin-small);
-  margin-bottom: var(--margin-large);
   font-size: var(--font-size-paragraph);
   line-height: 140%;
   letter-spacing: 0.013rem;
   color: var(--secondary-color);
   font-weight: var(--font-400);
+  width: var(--width-90);
+  margin: var(--margin-small) auto;
 }
 
 @media (max-width: 22.25rem) {
   .qr-container {
     border-radius: var(--border-radius-small);
+    height: auto;
   }
   .qr-image-container {
     border-radius: var(--border-radius-secondary-small);
