@@ -70,6 +70,7 @@ body {
 .qr-description {
   width: var(--width-90);
   margin: auto;
+  margin-top: -4px;
 }
 .qr-image-container {
   margin-top: var(--margin-small);
@@ -78,7 +79,6 @@ body {
 }
 
 .qr-title {
-  margin-top: -2px;
   font-size: var(--font-size-title);
   line-height: 120%;
   letter-spacing: 0;
